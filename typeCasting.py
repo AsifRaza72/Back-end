@@ -1,0 +1,6 @@
+print ('gsdghs')
+print(type('aaa'))
+a=input("Please enter first number= ")
+b=input("Please enter second number= ")
+print(a,2*int(b))
+print (type(a))
