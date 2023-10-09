@@ -4,5 +4,7 @@ def convert_seconds(seconds):
     remaining_seconds=seconds-hours *3600-minutes*60
     return hours,minutes,remaining_seconds
 result=convert_seconds(5000)
+hours,minutes,seconds=convert_seconds(5000)
 print(result)
+print(hours,minutes,seconds)
 type(result)
