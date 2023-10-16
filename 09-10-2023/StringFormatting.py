@@ -9,7 +9,7 @@ print(price,with_tax)
 print("Base price: ${:.2f}. with tax: ${:.2f}".format(price,with_tax))
 
 
-#celcius
+#Temperature formatting
 def to_celsius(x):
     return(x-32)*5/9
 for x in range (0,101,10):
