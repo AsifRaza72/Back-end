@@ -2,17 +2,16 @@
 num_list=[93,42,5,66,77,22,16,79,36,62,78,43,88,39,53,67,89,11]
 
 for i in num_list:
-    
     print(i)
 print()
 # 2. Inside the for loop, create a condition that will look for all numbers that are greater than 45 and print out only numbers that meet that condition.   
-for i in num_list: 
+for i in num_list:
     if (i>45):
         print(i)
-print()   
+print()
 # 3. Change the print statement to “Over 45” and add an else condition with a print statement of “Under 45”
 for i in num_list:
-    if(i>24):
+    if(i>45):
         print("OVER 45",i)
     else:
         print("UNDER 45",i)
@@ -26,6 +25,6 @@ count=0
 for index , number in enumerate(num_list):
     if (number == 36):
         count +=1
-        print("Value fount at position:",index)
+        print("Value found at position:",index)
         break
-print(count)  
+print(count)

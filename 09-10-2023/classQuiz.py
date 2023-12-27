@@ -3,7 +3,7 @@ def get_word(sentence,n):
         words=sentence.split()
         if n<=len(words):
             return (words[n-1])
-    return("")    
+    return("")
 print (get_word("This is a lesson about lists",4))
 print (get_word("This is a lesson about lists",-4))
 print (get_word("Now we are cooking",1))
